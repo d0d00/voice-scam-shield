@@ -1,0 +1,36 @@
+[project]
+name = "hacknation"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dodo",email = "153752367+d0d00@users.noreply.github.com"}
+]
+readme = "../README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "fastapi",
+    "websockets",
+    "pydantic",
+    "torch",
+    "torchaudio",
+    "numpy",
+    "librosa (>=0.10.1)",
+    "numba (>=0.58,<0.61)",
+    "faster-whisper (>=1.2.0,<2.0.0)",
+    "pyannote-audio (>=3.3.2,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+ruff = "^0.12.8"
+mypy = "^1.17.1"
+
