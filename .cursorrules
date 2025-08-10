@@ -1,5 +1,0 @@
-# .cursorrules
-- Prefer Python in backend (FastAPI).
-- Use WebSockets for audio streaming.
-- Target EN/ES/FR for intent classification prompts.
-- Aim for <2s end-to-end latency; keep dependencies minimal.
