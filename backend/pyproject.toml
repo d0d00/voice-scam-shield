@@ -12,6 +12,7 @@ dependencies = [
     "fastapi",
     "websockets",
     "pydantic",
+    "pydantic-settings (>=2.6,<3.0)",
     "torch",
     "torchaudio",
     "numpy",
